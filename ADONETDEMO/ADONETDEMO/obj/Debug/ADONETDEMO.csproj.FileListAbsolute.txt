@@ -1,0 +1,7 @@
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ADONETDEMO\bin\Debug\ADONETDEMO.exe.config
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ADONETDEMO\bin\Debug\ADONETDEMO.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ADONETDEMO\bin\Debug\ADONETDEMO.pdb
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ADONETDEMO\obj\Debug\ADONETDEMO.csproj.AssemblyReference.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ADONETDEMO\obj\Debug\ADONETDEMO.csproj.CoreCompileInputs.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ADONETDEMO\obj\Debug\ADONETDEMO.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ADONETDEMO\obj\Debug\ADONETDEMO.pdb
