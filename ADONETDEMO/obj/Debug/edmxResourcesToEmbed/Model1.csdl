@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="studentsdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="student">
+    <Key>
+      <PropertyRef Name="studentid" />
+    </Key>
+    <Property Name="studentid" Type="Int32" Nullable="false" />
+    <Property Name="studentname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="sclass" Type="Int32" />
+    <Property Name="saddress" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="courses" Relationship="studentsdbModel.FK__course__studenti__276EDEB3" FromRole="student" ToRole="course" />
+  </EntityType>
+  <EntityContainer Name="studentsdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="students" EntityType="Self.student" />
+    <FunctionImport Name="displaysstudentsbyaddress" ReturnType="Collection(studentsdbModel.displaysstudentsbyaddress_Result)">
+      <Parameter Name="add" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="courses" EntityType="studentsdbModel.course" />
+    <AssociationSet Name="FK__course__studenti__276EDEB3" Association="studentsdbModel.FK__course__studenti__276EDEB3">
+      <End Role="student" EntitySet="students" />
+      <End Role="course" EntitySet="courses" />
+    </AssociationSet>
+    <EntitySet Name="customers" EntityType="studentsdbModel.customer" />
+    <EntitySet Name="orders" EntityType="studentsdbModel.order" />
+    <AssociationSet Name="FK__orders__custid__2C3393D0" Association="studentsdbModel.FK__orders__custid__2C3393D0">
+      <End Role="customer" EntitySet="customers" />
+      <End Role="order" EntitySet="orders" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="displaysstudentsbyaddress_Result">
+    <Property Type="Int32" Name="studentid" Nullable="false" />
+    <Property Type="String" Name="studentname" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="sclass" Nullable="true" />
+    <Property Type="String" Name="saddress" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <EntityType Name="course">
+    <Key>
+      <PropertyRef Name="courseid" />
+    </Key>
+    <Property Name="courseid" Type="Int32" Nullable="false" />
+    <Property Name="coursename" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="studentid" Type="Int32" />
+    <Property Name="duration" Type="Int32" />
+    <NavigationProperty Name="student" Relationship="studentsdbModel.FK__course__studenti__276EDEB3" FromRole="course" ToRole="student" />
+  </EntityType>
+  <Association Name="FK__course__studenti__276EDEB3">
+    <End Type="studentsdbModel.student" Role="student" Multiplicity="0..1" />
+    <End Type="studentsdbModel.course" Role="course" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="student">
+        <PropertyRef Name="studentid" />
+      </Principal>
+      <Dependent Role="course">
+        <PropertyRef Name="studentid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="custid" />
+    </Key>
+    <Property Name="custid" Type="Int32" Nullable="false" />
+    <Property Name="custname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="age" Type="Int32" />
+    <Property Name="caddress" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="orders" Relationship="studentsdbModel.FK__orders__custid__2C3393D0" FromRole="customer" ToRole="order" />
+  </EntityType>
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="orderid" />
+    </Key>
+    <Property Name="orderid" Type="Int32" Nullable="false" />
+    <Property Name="custid" Type="Int32" />
+    <Property Name="orderdate" Type="DateTime" Precision="0" />
+    <Property Name="product" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="Int32" />
+    <Property Name="qty" Type="Int32" />
+    <NavigationProperty Name="customer" Relationship="studentsdbModel.FK__orders__custid__2C3393D0" FromRole="order" ToRole="customer" />
+  </EntityType>
+  <Association Name="FK__orders__custid__2C3393D0">
+    <End Type="studentsdbModel.customer" Role="customer" Multiplicity="0..1" />
+    <End Type="studentsdbModel.order" Role="order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="customer">
+        <PropertyRef Name="custid" />
+      </Principal>
+      <Dependent Role="order">
+        <PropertyRef Name="custid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

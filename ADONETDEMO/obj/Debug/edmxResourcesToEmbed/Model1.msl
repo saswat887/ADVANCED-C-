@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="studentsdbModelStoreContainer" CdmEntityContainer="studentsdbEntities">
+    <EntitySetMapping Name="students">
+      <EntityTypeMapping TypeName="studentsdbModel.student">
+        <MappingFragment StoreEntitySet="student">
+          <ScalarProperty Name="studentid" ColumnName="studentid" />
+          <ScalarProperty Name="studentname" ColumnName="studentname" />
+          <ScalarProperty Name="sclass" ColumnName="sclass" />
+          <ScalarProperty Name="saddress" ColumnName="saddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="displaysstudentsbyaddress" FunctionName="studentsdbModel.Store.displaysstudentsbyaddress">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="studentsdbModel.displaysstudentsbyaddress_Result">
+          <ScalarProperty Name="studentid" ColumnName="studentid" />
+          <ScalarProperty Name="studentname" ColumnName="studentname" />
+          <ScalarProperty Name="sclass" ColumnName="sclass" />
+          <ScalarProperty Name="saddress" ColumnName="saddress" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="courses">
+      <EntityTypeMapping TypeName="studentsdbModel.course">
+        <MappingFragment StoreEntitySet="course">
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="studentid" ColumnName="studentid" />
+          <ScalarProperty Name="coursename" ColumnName="coursename" />
+          <ScalarProperty Name="courseid" ColumnName="courseid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="studentsdbModel.customer">
+        <MappingFragment StoreEntitySet="customers">
+          <ScalarProperty Name="caddress" ColumnName="caddress" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="custname" ColumnName="custname" />
+          <ScalarProperty Name="custid" ColumnName="custid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="studentsdbModel.order">
+        <MappingFragment StoreEntitySet="orders">
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="product" ColumnName="product" />
+          <ScalarProperty Name="orderdate" ColumnName="orderdate" />
+          <ScalarProperty Name="custid" ColumnName="custid" />
+          <ScalarProperty Name="orderid" ColumnName="orderid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
