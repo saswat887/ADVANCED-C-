@@ -1,0 +1,12 @@
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\bin\Debug\ModelFirstDemo.exe.config
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\bin\Debug\ModelFirstDemo.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\bin\Debug\ModelFirstDemo.pdb
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\obj\Debug\ModelFirstDemo.csproj.AssemblyReference.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\obj\Debug\ModelFirstDemo.csproj.CoreCompileInputs.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\obj\Debug\ModelFirstDemo.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\obj\Debug\ModelFirstDemo.pdb
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\bin\Debug\EntityFramework.dll
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\bin\Debug\EntityFramework.xml
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\ModelFirstDemo\obj\Debug\ModelFir.06526775.Up2Date

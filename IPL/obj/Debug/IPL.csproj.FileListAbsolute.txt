@@ -1,0 +1,12 @@
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\bin\Debug\IPL.exe.config
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\bin\Debug\IPL.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\bin\Debug\IPL.pdb
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\obj\Debug\IPL.csproj.AssemblyReference.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\obj\Debug\IPL.csproj.CoreCompileInputs.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\obj\Debug\IPL.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\obj\Debug\IPL.pdb
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\bin\Debug\EntityFramework.dll
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\bin\Debug\EntityFramework.xml
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\IPL\obj\Debug\IPL.csproj.Up2Date
