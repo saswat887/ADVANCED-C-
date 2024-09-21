@@ -1,0 +1,12 @@
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\bin\Debug\CodeFirstDemo.exe.config
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\bin\Debug\CodeFirstDemo.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\bin\Debug\CodeFirstDemo.pdb
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\bin\Debug\EntityFramework.dll
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\bin\Debug\EntityFramework.xml
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.AssemblyReference.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.CoreCompileInputs.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\obj\Debug\CodeFirs.5DDB1A93.Up2Date
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\obj\Debug\CodeFirstDemo.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstDemo\obj\Debug\CodeFirstDemo.pdb
