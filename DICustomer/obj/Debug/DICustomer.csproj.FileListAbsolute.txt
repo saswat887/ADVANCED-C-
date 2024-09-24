@@ -1,0 +1,12 @@
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\bin\Debug\DICustomer.exe.config
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\bin\Debug\DICustomer.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\bin\Debug\DICustomer.pdb
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\bin\Debug\EntityFramework.dll
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\bin\Debug\EntityFramework.xml
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\obj\Debug\DICustomer.csproj.AssemblyReference.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\obj\Debug\DICustomer.csproj.CoreCompileInputs.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\obj\Debug\DICustomer.csproj.Up2Date
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\obj\Debug\DICustomer.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\DICustomer\obj\Debug\DICustomer.pdb
