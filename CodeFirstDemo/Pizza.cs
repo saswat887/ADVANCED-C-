@@ -14,12 +14,16 @@ namespace CodeFirstDemo
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int pid { get; set; }
-        [Column(TypeName ="varchar(20)")]
+        [Column(TypeName ="varchar")]
+        [StringLength(50)]
         public string pizzanames { get; set; }
         public int price { get; set; }
-        [Column("pizzatype",TypeName = "varchar(20)")]
-        public string ptype { get; set; }
-        [Column(TypeName = "varchar(50)")]
+        //[Column("pizzatype",TypeName = "varchar")]
+        //[StringLength(50)]
+        //public string ptype { get; set; }
+        public int pizzasize {  get; set; }
+        [Column(TypeName = "varchar")]
+        [StringLength(50)]
         public string description { get; set; }
     }
 }

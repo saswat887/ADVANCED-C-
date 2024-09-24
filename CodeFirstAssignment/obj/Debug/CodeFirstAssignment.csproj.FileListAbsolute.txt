@@ -1,0 +1,16 @@
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\bin\Debug\CodeFirstAssignment.exe.config
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\bin\Debug\CodeFirstAssignment.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\bin\Debug\CodeFirstAssignment.pdb
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\bin\Debug\EntityFramework.dll
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\bin\Debug\EntityFramework.xml
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\obj\Debug\CodeFirstAssignment.csproj.AssemblyReference.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\obj\Debug\CodeFirstAssignment.csproj.CoreCompileInputs.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\obj\Debug\CodeFirs.D1603D95.Up2Date
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\obj\Debug\CodeFirstAssignment.exe
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\obj\Debug\CodeFirstAssignment.pdb
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\obj\Debug\CodeFirstAssignment.Migrations.myschema.resources
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\obj\Debug\CodeFirstAssignment.csproj.GenerateResource.cache
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\obj\Debug\CodeFirstAssignment.Migrations.mySchema3.resources
+C:\Users\saswat.nayak\source\repos\ADONETDEMO\CodeFirstAssignment\obj\Debug\CodeFirstAssignment.Migrations.mySchema4.resources
